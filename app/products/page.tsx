@@ -1,4 +1,7 @@
 import Link from "next/link";
+import CurrentFilter from "./CurrentFilter";
+
+
 
 interface ProductPageProps {
     searchParams: {
@@ -71,6 +74,8 @@ export default async function ProductPage({searchParams}: ProductPageProps) {
                     <li key={product.id}>{product.name}</li>
                 ))}
              </ul>
+
+             <CurrentFilter />
 
 
 
