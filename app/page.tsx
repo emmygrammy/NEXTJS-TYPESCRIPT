@@ -16,7 +16,7 @@ export default async function Home({ id, title, body }: HomePageProps) {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold">
+      <h1 className="text-3xl font-bold text-center">
         Blog post
       </h1>
 
